@@ -1,16 +1,1 @@
-gradle practice
-│
-├── settings.gradle
-├── build.gradle
-│
-├── app/
-│   ├── build.gradle
-│   └── src/...
-│
-├── data/
-│   ├── build.gradle
-│   └── src/...
-│
-└── domain/
-    ├── build.gradle
-    └── src/...
+Le projet est organisé en plusieurs modules pour une meilleure séparation des responsabilités. À la racine, on retrouve les fichiers de configuration settings.gradle et build.gradle. Le module app contient son propre build.gradle ainsi que le code source dans le dossier src. De même, le module data possède son build.gradle et le code source correspondant. Enfin, le module domain contient également un build.gradle et son dossier src. Cette organisation modulaire permet de structurer clairement le projet et de faciliter la maintenance et l’évolution du code.
